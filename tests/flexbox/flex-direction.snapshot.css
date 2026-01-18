@@ -1,0 +1,40 @@
+/**
+ * Test base mixin
+ */
+.test-flex-direction-custom {
+	flex-direction: row;
+}
+
+/**
+ * Test global CSS values
+ */
+.test-flex-direction-initial {
+	flex-direction: initial;
+}
+
+.test-flex-direction-inherit {
+	flex-direction: inherit;
+}
+
+.test-flex-direction-unset {
+	flex-direction: unset;
+}
+
+/**
+ * Test presets
+ */
+.test-flex-row {
+	flex-direction: row;
+}
+
+.test-flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.test-flex-col {
+	flex-direction: column;
+}
+
+.test-flex-col-reverse {
+	flex-direction: column-reverse;
+}
