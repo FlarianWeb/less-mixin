@@ -1,0 +1,36 @@
+/**
+ * Test base mixin
+ */
+.test-flex-wrap-custom {
+	flex-wrap: wrap;
+}
+
+/**
+ * Test global CSS values
+ */
+.test-flex-wrap-initial {
+	flex-wrap: initial;
+}
+
+.test-flex-wrap-inherit {
+	flex-wrap: inherit;
+}
+
+.test-flex-wrap-unset {
+	flex-wrap: unset;
+}
+
+/**
+ * Test presets
+ */
+.test-flex-wrap {
+	flex-wrap: wrap;
+}
+
+.test-flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+.test-flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
