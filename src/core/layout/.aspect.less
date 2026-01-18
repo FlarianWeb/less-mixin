@@ -2,14 +2,6 @@
 	aspect-ratio: @value;
 }
 
-.aspect-square() {
-	.aspect(1 / 1);
-}
-
-.aspect-video() {
-	.aspect(var(--aspect-video));
-}
-
 .aspect-initial() {
 	.aspect(initial);
 }
@@ -20,6 +12,14 @@
 
 .aspect-unset() {
 	.aspect(unset);
+}
+
+.aspect-square() {
+	.aspect(1 / 1);
+}
+
+.aspect-video() {
+	.aspect(var(--aspect-video));
 }
 
 .aspect-auto() {

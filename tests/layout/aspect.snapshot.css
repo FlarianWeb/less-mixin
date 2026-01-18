@@ -12,14 +12,6 @@
 /**
  * Тест пресетов
  */
-.test-aspect-square {
-	aspect-ratio: 1 / 1;
-}
-
-.test-aspect-video {
-	aspect-ratio: var(--aspect-video);
-}
-
 .test-aspect-initial {
 	aspect-ratio: initial;
 }
@@ -30,6 +22,14 @@
 
 .test-aspect-unset {
 	aspect-ratio: unset;
+}
+
+.test-aspect-square {
+	aspect-ratio: 1 / 1;
+}
+
+.test-aspect-video {
+	aspect-ratio: var(--aspect-video);
 }
 
 .test-aspect-auto {
