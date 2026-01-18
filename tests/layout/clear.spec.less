@@ -1,0 +1,50 @@
+@import '/src/core/layout/.clear.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-clear-custom {
+	.clear(both);
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-clear-initial {
+	.clear-initial();
+}
+
+.test-clear-inherit {
+	.clear-inherit();
+}
+
+.test-clear-unset {
+	.clear-unset();
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-clear-left {
+	.clear-left();
+}
+
+.test-clear-right {
+	.clear-right();
+}
+
+.test-clear-both {
+	.clear-both();
+}
+
+.test-clear-start {
+	.clear-start();
+}
+
+.test-clear-end {
+	.clear-end();
+}
+
+.test-clear-none {
+	.clear-none();
+}
