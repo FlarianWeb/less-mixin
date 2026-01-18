@@ -1,0 +1,29 @@
+/**
+ * Тест базового миксина
+ */
+.test-box-sizing-custom {
+	box-sizing: border-box;
+}
+
+/**
+ * Тест пресетов
+ */
+.test-box-sizing-initial {
+	box-sizing: initial;
+}
+
+.test-box-sizing-inherit {
+	box-sizing: inherit;
+}
+
+.test-box-sizing-unset {
+	box-sizing: unset;
+}
+
+.test-box-sizing-border {
+	box-sizing: border-box;
+}
+
+.test-box-sizing-content {
+	box-sizing: content-box;
+}
