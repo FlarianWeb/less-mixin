@@ -1,0 +1,46 @@
+@import '/src/core/layout/.object-fit.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-object-fit-custom {
+	.object-fit(cover);
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-object-fit-initial {
+	.object-fit-initial();
+}
+
+.test-object-fit-inherit {
+	.object-fit-inherit();
+}
+
+.test-object-fit-unset {
+	.object-fit-unset();
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-object-contain {
+	.object-contain();
+}
+
+.test-object-cover {
+	.object-cover();
+}
+
+.test-object-fill {
+	.object-fill();
+}
+
+.test-object-none {
+	.object-none();
+}
+
+.test-object-scale-down {
+	.object-scale-down();
+}
