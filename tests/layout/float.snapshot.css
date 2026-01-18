@@ -1,0 +1,44 @@
+/**
+ * Тест базового миксина
+ */
+.test-float-custom {
+	float: left;
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-float-initial {
+	float: initial;
+}
+
+.test-float-inherit {
+	float: inherit;
+}
+
+.test-float-unset {
+	float: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-float-right {
+	float: right;
+}
+
+.test-float-left {
+	float: left;
+}
+
+.test-float-start {
+	float: inline-start;
+}
+
+.test-float-end {
+	float: inline-end;
+}
+
+.test-float-none {
+	float: none;
+}
