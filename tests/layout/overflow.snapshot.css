@@ -1,0 +1,134 @@
+/**
+ * Тест базового миксина overflow
+ */
+.test-overflow-custom {
+	overflow: auto;
+}
+
+/**
+ * Тест глобальных пресетов overflow
+ */
+.test-overflow-initial {
+	overflow: initial;
+}
+
+.test-overflow-inherit {
+	overflow: inherit;
+}
+
+.test-overflow-unset {
+	overflow: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов overflow
+ */
+.test-overflow-auto {
+	overflow: auto;
+}
+
+.test-overflow-hidden {
+	overflow: hidden;
+}
+
+.test-overflow-clip {
+	overflow: clip;
+}
+
+.test-overflow-visible {
+	overflow: visible;
+}
+
+.test-overflow-scroll {
+	overflow: scroll;
+}
+
+/**
+ * Тест базового миксина overflow-x
+ */
+.test-overflow-x-custom {
+	overflow-x: auto;
+}
+
+/**
+ * Тест глобальных пресетов overflow-x
+ */
+.test-overflow-x-initial {
+	overflow-x: initial;
+}
+
+.test-overflow-x-inherit {
+	overflow-x: inherit;
+}
+
+.test-overflow-x-unset {
+	overflow-x: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов overflow-x
+ */
+.test-overflow-x-auto {
+	overflow-x: auto;
+}
+
+.test-overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.test-overflow-x-clip {
+	overflow-x: clip;
+}
+
+.test-overflow-x-visible {
+	overflow-x: visible;
+}
+
+.test-overflow-x-scroll {
+	overflow-x: scroll;
+}
+
+/**
+ * Тест базового миксина overflow-y
+ */
+.test-overflow-y-custom {
+	overflow-y: auto;
+}
+
+/**
+ * Тест глобальных пресетов overflow-y
+ */
+.test-overflow-y-initial {
+	overflow-y: initial;
+}
+
+.test-overflow-y-inherit {
+	overflow-y: inherit;
+}
+
+.test-overflow-y-unset {
+	overflow-y: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов overflow-y
+ */
+.test-overflow-y-auto {
+	overflow-y: auto;
+}
+
+.test-overflow-y-hidden {
+	overflow-y: hidden;
+}
+
+.test-overflow-y-clip {
+	overflow-y: clip;
+}
+
+.test-overflow-y-visible {
+	overflow-y: visible;
+}
+
+.test-overflow-y-scroll {
+	overflow-y: scroll;
+}
