@@ -1,0 +1,31 @@
+@import '/src/core/layout/.columns.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-columns-custom {
+	.columns(3);
+}
+
+.test-columns-number {
+	.columns(8);
+}
+
+/**
+ * Тест пресетов
+ */
+.test-columns-initial {
+	.columns-initial();
+}
+
+.test-columns-inherit {
+	.columns-inherit();
+}
+
+.test-columns-unset {
+	.columns-unset();
+}
+
+.test-columns-auto {
+	.columns-auto();
+}
