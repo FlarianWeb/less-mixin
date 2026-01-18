@@ -1,0 +1,53 @@
+/**
+ * Тест базового миксина
+ */
+.test-break-before-custom {
+	break-before: region;
+}
+
+/**
+ * Тест пресетов
+ */
+.test-break-before-initial {
+	break-before: initial;
+}
+
+.test-break-before-inherit {
+	break-before: inherit;
+}
+
+.test-break-before-unset {
+	break-before: unset;
+}
+
+.test-break-before-auto {
+	break-before: auto;
+}
+
+.test-break-before-avoid {
+	break-before: avoid;
+}
+
+.test-break-before-all {
+	break-before: all;
+}
+
+.test-break-before-avoid-page {
+	break-before: avoid-page;
+}
+
+.test-break-before-page {
+	break-before: page;
+}
+
+.test-break-before-left {
+	break-before: left;
+}
+
+.test-break-before-right {
+	break-before: right;
+}
+
+.test-break-before-column {
+	break-before: column;
+}
