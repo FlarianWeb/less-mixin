@@ -1,6 +1,6 @@
 {
   "name": "@flarian/less-mixin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "A collection of reusable LESS mixins for faster and cleaner frontend styling",
   "keywords": [
