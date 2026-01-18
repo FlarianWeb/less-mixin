@@ -23,7 +23,14 @@
   },
   "license": "MIT",
   "author": "FlarianWeb",
-  "main": "index.less",
+  "main": "src/index.less",
+  "files": [
+    "src",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node tests/run-tests.js",
     "test:snapshot": "node tests/run-tests.js -g"
