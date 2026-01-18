@@ -1,0 +1,108 @@
+/**
+ * Тест базового миксина
+ */
+.test-display-custom {
+	display: inline-flex;
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-display-initial {
+	display: initial;
+}
+
+.test-display-inherit {
+	display: inherit;
+}
+
+.test-display-unset {
+	display: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-block {
+	display: block;
+}
+
+.test-inline-block {
+	display: inline-block;
+}
+
+.test-inline {
+	display: inline;
+}
+
+.test-flex {
+	display: flex;
+}
+
+.test-inline-flex {
+	display: inline-flex;
+}
+
+.test-table {
+	display: table;
+}
+
+.test-inline-table {
+	display: inline-table;
+}
+
+.test-table-caption {
+	display: table-caption;
+}
+
+.test-table-cell {
+	display: table-cell;
+}
+
+.test-table-column {
+	display: table-column;
+}
+
+.test-table-column-group {
+	display: table-column-group;
+}
+
+.test-table-footer-group {
+	display: table-footer-group;
+}
+
+.test-table-header-group {
+	display: table-header-group;
+}
+
+.test-table-row-group {
+	display: table-row-group;
+}
+
+.test-table-row {
+	display: table-row;
+}
+
+.test-flow-root {
+	display: flow-root;
+}
+
+.test-grid {
+	display: grid;
+}
+
+.test-inline-grid {
+	display: inline-grid;
+}
+
+.test-contents {
+	display: contents;
+}
+
+.test-list-item {
+	display: list-item;
+}
+
+.test-hidden {
+	display: none;
+}
