@@ -1,0 +1,46 @@
+@import '/src/core/layout/.position.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-position-custom {
+	.position(absolute);
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-position-initial {
+	.position-initial();
+}
+
+.test-position-inherit {
+	.position-inherit();
+}
+
+.test-position-unset {
+	.position-unset();
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-static {
+	.static();
+}
+
+.test-fixed {
+	.fixed();
+}
+
+.test-absolute {
+	.absolute();
+}
+
+.test-relative {
+	.relative();
+}
+
+.test-sticky {
+	.sticky();
+}

@@ -1,0 +1,44 @@
+/**
+ * Тест базового миксина
+ */
+.test-position-custom {
+	position: absolute;
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-position-initial {
+	position: initial;
+}
+
+.test-position-inherit {
+	position: inherit;
+}
+
+.test-position-unset {
+	position: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-static {
+	position: static;
+}
+
+.test-fixed {
+	position: fixed;
+}
+
+.test-absolute {
+	position: absolute;
+}
+
+.test-relative {
+	position: relative;
+}
+
+.test-sticky {
+	position: sticky;
+}
