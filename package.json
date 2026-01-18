@@ -1,0 +1,41 @@
+{
+  "name": "@flarian/less-mixin",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A collection of reusable LESS mixins for faster and cleaner frontend styling",
+  "keywords": [
+    "less",
+    "less-mixins",
+    "css",
+    "frontend",
+    "styles",
+    "preprocessor",
+    "mixin",
+    "ui"
+  ],
+  "homepage": "https://github.com/FlarianWeb/less-mixin#readme",
+  "bugs": {
+    "url": "https://github.com/FlarianWeb/less-mixin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlarianWeb/less-mixin.git"
+  },
+  "license": "MIT",
+  "author": "FlarianWeb",
+  "main": "index.less",
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "test:snapshot": "node tests/run-tests.js -g"
+  },
+  "devDependencies": {
+    "@flarian/frontend-preset": "^1.4.4",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.2",
+    "@semantic-release/npm": "^13.1.3",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "less": "^4.5.1",
+    "semantic-release": "^25.0.2"
+  }
+}
