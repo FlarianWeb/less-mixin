@@ -1,0 +1,33 @@
+/**
+ * Тест базового миксина
+ */
+.test-basis-custom {
+	flex-basis: 10px;
+}
+
+.test-basis-number {
+	flex-basis: 1;
+}
+
+/**
+ * Тест пресетов
+ */
+.test-basis-initial {
+	flex-basis: initial;
+}
+
+.test-basis-inherit {
+	flex-basis: inherit;
+}
+
+.test-basis-unset {
+	flex-basis: unset;
+}
+
+.test-basis-auto {
+	flex-basis: auto;
+}
+
+.test-basis-full {
+	flex-basis: 100%;
+}
