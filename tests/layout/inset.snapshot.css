@@ -1,0 +1,168 @@
+/**
+ * Тест базового миксина inset
+ */
+.test-inset-custom {
+	inset: 10px;
+}
+
+.test-inset-initial {
+	inset: initial;
+}
+
+.test-inset-auto {
+	inset: auto;
+}
+
+.test-inset-full {
+	inset: 100%;
+}
+
+/**
+ * Тест базового миксина top
+ */
+.test-top-custom {
+	top: 10px;
+}
+
+.test-top-auto {
+	top: auto;
+}
+
+.test-top-full {
+	top: 100%;
+}
+
+/**
+ * Тест базового миксина right
+ */
+.test-right-custom {
+	right: 10px;
+}
+
+.test-right-auto {
+	right: auto;
+}
+
+.test-right-full {
+	right: 100%;
+}
+
+/**
+ * Тест базового миксина bottom
+ */
+.test-bottom-custom {
+	bottom: 10px;
+}
+
+.test-bottom-auto {
+	bottom: auto;
+}
+
+.test-bottom-full {
+	bottom: 100%;
+}
+
+/**
+ * Тест базового миксина left
+ */
+.test-left-custom {
+	left: 10px;
+}
+
+.test-left-auto {
+	left: auto;
+}
+
+.test-left-full {
+	left: 100%;
+}
+
+/**
+ * Тест базового миксина inset-inline
+ */
+.test-inset-inline-custom {
+	inset-inline: 10px;
+}
+
+.test-inset-inline-auto {
+	inset-inline: auto;
+}
+
+.test-inset-inline-full {
+	inset-inline: 100%;
+}
+
+/**
+ * Тест базового миксина inset-inline-start
+ */
+.test-inset-inline-start-custom {
+	inset-inline-start: 10px;
+}
+
+.test-inset-inline-start-auto {
+	inset-inline-start: auto;
+}
+
+.test-inset-inline-start-full {
+	inset-inline-start: 100%;
+}
+
+/**
+ * Тест базового миксина inset-inline-end
+ */
+.test-inset-inline-end-custom {
+	inset-inline-end: 10px;
+}
+
+.test-inset-inline-end-auto {
+	inset-inline-end: auto;
+}
+
+.test-inset-inline-end-full {
+	inset-inline-end: 100%;
+}
+
+/**
+ * Тест базового миксина inset-block
+ */
+.test-inset-block-custom {
+	inset-block: 10px;
+}
+
+.test-inset-block-auto {
+	inset-block: auto;
+}
+
+.test-inset-block-full {
+	inset-block: 100%;
+}
+
+/**
+ * Тест базового миксина inset-block-start
+ */
+.test-inset-block-start-custom {
+	inset-block-start: 10px;
+}
+
+.test-inset-block-start-auto {
+	inset-block-start: auto;
+}
+
+.test-inset-block-start-full {
+	inset-block-start: 100%;
+}
+
+/**
+ * Тест базового миксина inset-block-end
+ */
+.test-inset-block-end-custom {
+	inset-block-end: 10px;
+}
+
+.test-inset-block-end-auto {
+	inset-block-end: auto;
+}
+
+.test-inset-block-end-full {
+	inset-block-end: 100%;
+}
