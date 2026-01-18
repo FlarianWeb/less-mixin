@@ -1,0 +1,34 @@
+@import '/src/core/layout/.isolation.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-isolation-custom {
+	.isolation(isolate);
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-isolation-initial {
+	.isolation-initial();
+}
+
+.test-isolation-inherit {
+	.isolation-inherit();
+}
+
+.test-isolation-unset {
+	.isolation-unset();
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-isolate {
+	.isolate();
+}
+
+.test-isolation-auto {
+	.isolation-auto();
+}
