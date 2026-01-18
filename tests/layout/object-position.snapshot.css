@@ -1,0 +1,60 @@
+/**
+ * Тест базового миксина
+ */
+.test-object-position-custom {
+	object-position: 50% 50%;
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-object-position-initial {
+	object-position: initial;
+}
+
+.test-object-position-inherit {
+	object-position: inherit;
+}
+
+.test-object-position-unset {
+	object-position: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-object-top-left {
+	object-position: top left;
+}
+
+.test-object-top {
+	object-position: top;
+}
+
+.test-object-top-right {
+	object-position: top right;
+}
+
+.test-object-left {
+	object-position: left;
+}
+
+.test-object-center {
+	object-position: center;
+}
+
+.test-object-right {
+	object-position: right;
+}
+
+.test-object-bottom-left {
+	object-position: bottom left;
+}
+
+.test-object-bottom {
+	object-position: bottom;
+}
+
+.test-object-bottom-right {
+	object-position: bottom right;
+}

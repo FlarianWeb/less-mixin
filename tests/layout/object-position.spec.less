@@ -1,0 +1,62 @@
+@import '/src/core/layout/.object-position.less';
+
+/**
+ * Тест базового миксина
+ */
+.test-object-position-custom {
+	.object-position(50% 50%);
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-object-position-initial {
+	.object-position-initial();
+}
+
+.test-object-position-inherit {
+	.object-position-inherit();
+}
+
+.test-object-position-unset {
+	.object-position-unset();
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-object-top-left {
+	.object-top-left();
+}
+
+.test-object-top {
+	.object-top();
+}
+
+.test-object-top-right {
+	.object-top-right();
+}
+
+.test-object-left {
+	.object-left();
+}
+
+.test-object-center {
+	.object-center();
+}
+
+.test-object-right {
+	.object-right();
+}
+
+.test-object-bottom-left {
+	.object-bottom-left();
+}
+
+.test-object-bottom {
+	.object-bottom();
+}
+
+.test-object-bottom-right {
+	.object-bottom-right();
+}
