@@ -1,0 +1,28 @@
+/**
+ * Тест базового миксина
+ */
+.test-z-index-custom {
+	z-index: 10;
+}
+
+/**
+ * Тест глобальных пресетов
+ */
+.test-z-index-initial {
+	z-index: initial;
+}
+
+.test-z-index-inherit {
+	z-index: inherit;
+}
+
+.test-z-index-unset {
+	z-index: unset;
+}
+
+/**
+ * Тест Tailwind-like пресетов
+ */
+.test-z-auto {
+	z-index: auto;
+}
