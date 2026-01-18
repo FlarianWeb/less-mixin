@@ -1,0 +1,27 @@
+.aspect(@value) {
+	aspect-ratio: @value;
+}
+
+.aspect-square() {
+	.aspect(1 / 1);
+}
+
+.aspect-video() {
+	.aspect(var(--aspect-video));
+}
+
+.aspect-initial() {
+	.aspect(initial);
+}
+
+.aspect-inherit() {
+	.aspect(inherit);
+}
+
+.aspect-unset() {
+	.aspect(unset);
+}
+
+.aspect-auto() {
+	.aspect(auto);
+}
