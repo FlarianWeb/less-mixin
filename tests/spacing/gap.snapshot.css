@@ -1,0 +1,23 @@
+.gap-test {
+	gap: 16px;
+}
+
+.gap-initial-test {
+	gap: initial;
+}
+
+.gap-inherit-test {
+	gap: inherit;
+}
+
+.gap-unset-test {
+	gap: unset;
+}
+
+.gap-x-test {
+	column-gap: 20px;
+}
+
+.gap-y-test {
+	row-gap: 10px;
+}
