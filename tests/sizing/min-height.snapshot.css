@@ -1,0 +1,63 @@
+.min-h-test {
+	min-height: 500px;
+}
+
+.min-h-initial-test {
+	min-height: initial;
+}
+
+.min-h-inherit-test {
+	min-height: inherit;
+}
+
+.min-h-unset-test {
+	min-height: unset;
+}
+
+.min-h-auto-test {
+	min-height: auto;
+}
+
+.min-h-full-test {
+	min-height: 100%;
+}
+
+.min-h-screen-test {
+	min-height: 100vh;
+}
+
+.min-h-dvw-test {
+	min-height: 100dvw;
+}
+
+.min-h-dvh-test {
+	min-height: 100dvh;
+}
+
+.min-h-lvw-test {
+	min-height: 100lvw;
+}
+
+.min-h-lvh-test {
+	min-height: 100lvh;
+}
+
+.min-h-svw-test {
+	min-height: 100svw;
+}
+
+.min-h-svh-test {
+	min-height: 100svh;
+}
+
+.min-h-min-test {
+	min-height: min-content;
+}
+
+.min-h-max-test {
+	min-height: max-content;
+}
+
+.min-h-fit-test {
+	min-height: fit-content;
+}
