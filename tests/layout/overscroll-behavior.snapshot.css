@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина overscroll-behavior
- */
 .test-overscroll-behavior-custom {
 	overscroll-behavior: auto;
 }
 
-/**
- * Тест глобальных пресетов overscroll-behavior
- */
 .test-overscroll-behavior-initial {
 	overscroll-behavior: initial;
 }
@@ -20,9 +14,6 @@
 	overscroll-behavior: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов overscroll-behavior
- */
 .test-overscroll-auto {
 	overscroll-behavior: auto;
 }
@@ -35,16 +26,10 @@
 	overscroll-behavior: none;
 }
 
-/**
- * Тест базового миксина overscroll-behavior-x
- */
 .test-overscroll-behavior-x-custom {
 	overscroll-behavior-x: auto;
 }
 
-/**
- * Тест глобальных пресетов overscroll-behavior-x
- */
 .test-overscroll-behavior-x-initial {
 	overscroll-behavior-x: initial;
 }
@@ -57,9 +42,6 @@
 	overscroll-behavior-x: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов overscroll-behavior-x
- */
 .test-overscroll-x-auto {
 	overscroll-behavior-x: auto;
 }
@@ -72,16 +54,10 @@
 	overscroll-behavior-x: none;
 }
 
-/**
- * Тест базового миксина overscroll-behavior-y
- */
 .test-overscroll-behavior-y-custom {
 	overscroll-behavior-y: auto;
 }
 
-/**
- * Тест глобальных пресетов overscroll-behavior-y
- */
 .test-overscroll-behavior-y-initial {
 	overscroll-behavior-y: initial;
 }
@@ -94,9 +70,6 @@
 	overscroll-behavior-y: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов overscroll-behavior-y
- */
 .test-overscroll-y-auto {
 	overscroll-behavior-y: auto;
 }
