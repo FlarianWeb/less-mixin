@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина
- */
 .test-object-position-custom {
 	object-position: 50% 50%;
 }
 
-/**
- * Тест глобальных пресетов
- */
 .test-object-position-initial {
 	object-position: initial;
 }
@@ -20,9 +14,6 @@
 	object-position: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов
- */
 .test-object-top-left {
 	object-position: top left;
 }
