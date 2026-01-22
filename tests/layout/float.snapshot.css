@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина
- */
 .test-float-custom {
 	float: left;
 }
 
-/**
- * Тест глобальных пресетов
- */
 .test-float-initial {
 	float: initial;
 }
@@ -20,9 +14,6 @@
 	float: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов
- */
 .test-float-right {
 	float: right;
 }
