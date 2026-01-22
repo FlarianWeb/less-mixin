@@ -1,13 +1,7 @@
-/**
- * Test base mixin
- */
 .test-flex-wrap-custom {
 	flex-wrap: wrap;
 }
 
-/**
- * Test global CSS values
- */
 .test-flex-wrap-initial {
 	flex-wrap: initial;
 }
@@ -20,9 +14,6 @@
 	flex-wrap: unset;
 }
 
-/**
- * Test presets
- */
 .test-flex-wrap {
 	flex-wrap: wrap;
 }

@@ -1,6 +1,3 @@
-/**
- * Тест базового миксина
- */
 .test-basis-custom {
 	flex-basis: 10px;
 }
@@ -9,9 +6,6 @@
 	flex-basis: 1;
 }
 
-/**
- * Тест пресетов
- */
 .test-basis-initial {
 	flex-basis: initial;
 }

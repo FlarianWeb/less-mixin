@@ -1,0 +1,23 @@
+.flex-grow-test {
+	flex-grow: 2;
+}
+
+.flex-grow-initial-test {
+	flex-grow: initial;
+}
+
+.flex-grow-inherit-test {
+	flex-grow: inherit;
+}
+
+.flex-grow-unset-test {
+	flex-grow: unset;
+}
+
+.flex-grow-preset-test {
+	flex-grow: 1;
+}
+
+.flex-grow-0-test {
+	flex-grow: 0;
+}

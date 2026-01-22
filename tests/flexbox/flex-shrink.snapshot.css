@@ -1,0 +1,23 @@
+.flex-shrink-test {
+	flex-shrink: 2;
+}
+
+.flex-shrink-initial-test {
+	flex-shrink: initial;
+}
+
+.flex-shrink-inherit-test {
+	flex-shrink: inherit;
+}
+
+.flex-shrink-unset-test {
+	flex-shrink: unset;
+}
+
+.flex-shrink-preset-test {
+	flex-shrink: 1;
+}
+
+.flex-shrink-0-test {
+	flex-shrink: 0;
+}

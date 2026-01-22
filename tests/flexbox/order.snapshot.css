@@ -1,0 +1,31 @@
+.order-test {
+	order: 5;
+}
+
+.order-negative-test {
+	order: -1;
+}
+
+.order-initial-test {
+	order: initial;
+}
+
+.order-inherit-test {
+	order: inherit;
+}
+
+.order-unset-test {
+	order: unset;
+}
+
+.order-first-test {
+	order: -9999;
+}
+
+.order-last-test {
+	order: 9999;
+}
+
+.order-none-test {
+	order: 0;
+}
