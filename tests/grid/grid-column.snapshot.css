@@ -1,0 +1,39 @@
+.grid-col-test {
+	grid-column: 2 / 4;
+}
+
+.grid-col-start-test {
+	grid-column-start: 2;
+}
+
+.grid-col-end-test {
+	grid-column-end: 4;
+}
+
+.grid-col-initial-test {
+	grid-column: initial;
+}
+
+.grid-col-inherit-test {
+	grid-column: inherit;
+}
+
+.grid-col-unset-test {
+	grid-column: unset;
+}
+
+.grid-col-auto-test {
+	grid-column: auto;
+}
+
+.grid-col-span-full-test {
+	grid-column: 1 / -1;
+}
+
+.grid-col-start-auto-test {
+	grid-column-start: auto;
+}
+
+.grid-col-end-auto-test {
+	grid-column-end: auto;
+}

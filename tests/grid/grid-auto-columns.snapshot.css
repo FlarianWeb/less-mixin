@@ -1,0 +1,31 @@
+.grid-auto-cols-test {
+	grid-auto-columns: 100px;
+}
+
+.grid-auto-cols-initial-test {
+	grid-auto-columns: initial;
+}
+
+.grid-auto-cols-inherit-test {
+	grid-auto-columns: inherit;
+}
+
+.grid-auto-cols-unset-test {
+	grid-auto-columns: unset;
+}
+
+.grid-auto-cols-auto-test {
+	grid-auto-columns: auto;
+}
+
+.grid-auto-cols-min-test {
+	grid-auto-columns: min-content;
+}
+
+.grid-auto-cols-max-test {
+	grid-auto-columns: max-content;
+}
+
+.grid-auto-cols-fr-test {
+	grid-auto-columns: minmax(0, 1fr);
+}

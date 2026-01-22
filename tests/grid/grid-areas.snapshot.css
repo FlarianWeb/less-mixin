@@ -1,0 +1,39 @@
+.grid-areas-test {
+	grid-template-areas: 'header header header' 'sidebar main aside' 'footer footer footer';
+}
+
+.grid-areas-initial-test {
+	grid-template-areas: initial;
+}
+
+.grid-areas-inherit-test {
+	grid-template-areas: inherit;
+}
+
+.grid-areas-unset-test {
+	grid-template-areas: unset;
+}
+
+.grid-areas-none-test {
+	grid-template-areas: none;
+}
+
+.grid-area-test {
+	grid-area: header;
+}
+
+.grid-area-initial-test {
+	grid-area: initial;
+}
+
+.grid-area-inherit-test {
+	grid-area: inherit;
+}
+
+.grid-area-unset-test {
+	grid-area: unset;
+}
+
+.grid-area-auto-test {
+	grid-area: auto;
+}

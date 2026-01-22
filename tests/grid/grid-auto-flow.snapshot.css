@@ -1,0 +1,35 @@
+.grid-flow-test {
+	grid-auto-flow: row;
+}
+
+.grid-flow-initial-test {
+	grid-auto-flow: initial;
+}
+
+.grid-flow-inherit-test {
+	grid-auto-flow: inherit;
+}
+
+.grid-flow-unset-test {
+	grid-auto-flow: unset;
+}
+
+.grid-flow-row-test {
+	grid-auto-flow: row;
+}
+
+.grid-flow-col-test {
+	grid-auto-flow: column;
+}
+
+.grid-flow-dense-test {
+	grid-auto-flow: dense;
+}
+
+.grid-flow-row-dense-test {
+	grid-auto-flow: row dense;
+}
+
+.grid-flow-col-dense-test {
+	grid-auto-flow: column dense;
+}

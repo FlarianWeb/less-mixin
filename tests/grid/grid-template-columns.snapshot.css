@@ -1,0 +1,23 @@
+.grid-cols-test {
+	grid-template-columns: 200px 1fr 100px;
+}
+
+.grid-cols-initial-test {
+	grid-template-columns: initial;
+}
+
+.grid-cols-inherit-test {
+	grid-template-columns: inherit;
+}
+
+.grid-cols-unset-test {
+	grid-template-columns: unset;
+}
+
+.grid-cols-none-test {
+	grid-template-columns: none;
+}
+
+.grid-cols-subgrid-test {
+	grid-template-columns: subgrid;
+}

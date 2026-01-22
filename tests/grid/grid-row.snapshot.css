@@ -1,0 +1,39 @@
+.grid-row-test {
+	grid-row: 2 / 4;
+}
+
+.grid-row-start-test {
+	grid-row-start: 2;
+}
+
+.grid-row-end-test {
+	grid-row-end: 4;
+}
+
+.grid-row-initial-test {
+	grid-row: initial;
+}
+
+.grid-row-inherit-test {
+	grid-row: inherit;
+}
+
+.grid-row-unset-test {
+	grid-row: unset;
+}
+
+.grid-row-auto-test {
+	grid-row: auto;
+}
+
+.grid-row-span-full-test {
+	grid-row: 1 / -1;
+}
+
+.grid-row-start-auto-test {
+	grid-row-start: auto;
+}
+
+.grid-row-end-auto-test {
+	grid-row-end: auto;
+}

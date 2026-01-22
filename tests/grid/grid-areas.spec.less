@@ -1,0 +1,45 @@
+@import '../../src/core/grid/.grid-areas.less';
+
+.grid-areas-test {
+	.grid-areas(
+		'header header header'
+		'sidebar main aside'
+		'footer footer footer'
+	);
+}
+
+.grid-areas-initial-test {
+	.grid-areas-initial();
+}
+
+.grid-areas-inherit-test {
+	.grid-areas-inherit();
+}
+
+.grid-areas-unset-test {
+	.grid-areas-unset();
+}
+
+.grid-areas-none-test {
+	.grid-areas-none();
+}
+
+.grid-area-test {
+	.grid-area(header);
+}
+
+.grid-area-initial-test {
+	.grid-area-initial();
+}
+
+.grid-area-inherit-test {
+	.grid-area-inherit();
+}
+
+.grid-area-unset-test {
+	.grid-area-unset();
+}
+
+.grid-area-auto-test {
+	.grid-area-auto();
+}
