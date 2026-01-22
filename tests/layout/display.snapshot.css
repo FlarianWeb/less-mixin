@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина
- */
 .test-display-custom {
 	display: inline-flex;
 }
 
-/**
- * Тест глобальных пресетов
- */
 .test-display-initial {
 	display: initial;
 }
@@ -20,9 +14,6 @@
 	display: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов
- */
 .test-block {
 	display: block;
 }
