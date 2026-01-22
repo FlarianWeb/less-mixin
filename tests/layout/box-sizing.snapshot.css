@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина
- */
 .test-box-sizing-custom {
 	box-sizing: border-box;
 }
 
-/**
- * Тест пресетов
- */
 .test-box-sizing-initial {
 	box-sizing: initial;
 }
