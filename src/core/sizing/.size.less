@@ -1,0 +1,57 @@
+.size(@value) {
+	width: @value;
+	height: @value;
+}
+
+.size(@width; @height) {
+	width: @width;
+	height: @height;
+}
+
+.size-initial() {
+	.size(initial);
+}
+
+.size-inherit() {
+	.size(inherit);
+}
+
+.size-unset() {
+	.size(unset);
+}
+
+.size-auto() {
+	.size(auto);
+}
+
+.size-full() {
+	.size(100%);
+}
+
+.size-screen() {
+	.size(100vw; 100vh);
+}
+
+.size-screen-d() {
+	.size(100dvw; 100dvh);
+}
+
+.size-screen-l() {
+	.size(100lvw; 100lvh);
+}
+
+.size-screen-s() {
+	.size(100svw; 100svh);
+}
+
+.size-min() {
+	.size(min-content);
+}
+
+.size-max() {
+	.size(max-content);
+}
+
+.size-fit() {
+	.size(fit-content);
+}
