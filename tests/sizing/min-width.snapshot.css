@@ -1,0 +1,63 @@
+.min-w-test {
+	min-width: 500px;
+}
+
+.min-w-initial-test {
+	min-width: initial;
+}
+
+.min-w-inherit-test {
+	min-width: inherit;
+}
+
+.min-w-unset-test {
+	min-width: unset;
+}
+
+.min-w-auto-test {
+	min-width: auto;
+}
+
+.min-w-full-test {
+	min-width: 100%;
+}
+
+.min-w-screen-test {
+	min-width: 100vw;
+}
+
+.min-w-dvw-test {
+	min-width: 100dvw;
+}
+
+.min-w-dvh-test {
+	min-width: 100dvh;
+}
+
+.min-w-lvw-test {
+	min-width: 100lvw;
+}
+
+.min-w-lvh-test {
+	min-width: 100lvh;
+}
+
+.min-w-svw-test {
+	min-width: 100svw;
+}
+
+.min-w-svh-test {
+	min-width: 100svh;
+}
+
+.min-w-min-test {
+	min-width: min-content;
+}
+
+.min-w-max-test {
+	min-width: max-content;
+}
+
+.min-w-fit-test {
+	min-width: fit-content;
+}
