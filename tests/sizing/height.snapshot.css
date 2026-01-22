@@ -1,0 +1,63 @@
+.h-test {
+	height: 500px;
+}
+
+.h-initial-test {
+	height: initial;
+}
+
+.h-inherit-test {
+	height: inherit;
+}
+
+.h-unset-test {
+	height: unset;
+}
+
+.h-auto-test {
+	height: auto;
+}
+
+.h-full-test {
+	height: 100%;
+}
+
+.h-screen-test {
+	height: 100vh;
+}
+
+.h-dvw-test {
+	height: 100dvw;
+}
+
+.h-dvh-test {
+	height: 100dvh;
+}
+
+.h-lvw-test {
+	height: 100lvw;
+}
+
+.h-lvh-test {
+	height: 100lvh;
+}
+
+.h-svw-test {
+	height: 100svw;
+}
+
+.h-svh-test {
+	height: 100svh;
+}
+
+.h-min-test {
+	height: min-content;
+}
+
+.h-max-test {
+	height: max-content;
+}
+
+.h-fit-test {
+	height: fit-content;
+}
