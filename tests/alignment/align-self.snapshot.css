@@ -1,0 +1,51 @@
+.align-self-test {
+	align-self: center;
+}
+
+.align-self-initial-test {
+	align-self: initial;
+}
+
+.align-self-inherit-test {
+	align-self: inherit;
+}
+
+.align-self-unset-test {
+	align-self: unset;
+}
+
+.align-self-auto-test {
+	align-self: auto;
+}
+
+.align-self-start-test {
+	align-self: flex-start;
+}
+
+.align-self-end-test {
+	align-self: flex-end;
+}
+
+.align-self-end-safe-test {
+	align-self: safe flex-end;
+}
+
+.align-self-center-test {
+	align-self: center;
+}
+
+.align-self-center-safe-test {
+	align-self: safe center;
+}
+
+.align-self-stretch-test {
+	align-self: stretch;
+}
+
+.align-self-baseline-test {
+	align-self: baseline;
+}
+
+.align-self-baseline-last-test {
+	align-self: last baseline;
+}

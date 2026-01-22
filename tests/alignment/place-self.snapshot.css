@@ -1,0 +1,43 @@
+.place-self-test {
+	place-self: center;
+}
+
+.place-self-initial-test {
+	place-self: initial;
+}
+
+.place-self-inherit-test {
+	place-self: inherit;
+}
+
+.place-self-unset-test {
+	place-self: unset;
+}
+
+.place-self-auto-test {
+	place-self: auto;
+}
+
+.place-self-start-test {
+	place-self: start;
+}
+
+.place-self-end-test {
+	place-self: end;
+}
+
+.place-self-end-safe-test {
+	place-self: safe end;
+}
+
+.place-self-center-test {
+	place-self: center;
+}
+
+.place-self-center-safe-test {
+	place-self: safe center;
+}
+
+.place-self-stretch-test {
+	place-self: stretch;
+}

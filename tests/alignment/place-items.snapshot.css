@@ -1,0 +1,43 @@
+.place-items-test {
+	place-items: center;
+}
+
+.place-items-initial-test {
+	place-items: initial;
+}
+
+.place-items-inherit-test {
+	place-items: inherit;
+}
+
+.place-items-unset-test {
+	place-items: unset;
+}
+
+.place-items-start-test {
+	place-items: start;
+}
+
+.place-items-end-test {
+	place-items: end;
+}
+
+.place-items-end-safe-test {
+	place-items: safe end;
+}
+
+.place-items-center-test {
+	place-items: center;
+}
+
+.place-items-center-safe-test {
+	place-items: safe center;
+}
+
+.place-items-baseline-test {
+	place-items: baseline;
+}
+
+.place-items-stretch-test {
+	place-items: stretch;
+}

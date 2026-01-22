@@ -1,0 +1,43 @@
+.justify-self-test {
+	justify-self: center;
+}
+
+.justify-self-initial-test {
+	justify-self: initial;
+}
+
+.justify-self-inherit-test {
+	justify-self: inherit;
+}
+
+.justify-self-unset-test {
+	justify-self: unset;
+}
+
+.justify-self-auto-test {
+	justify-self: auto;
+}
+
+.justify-self-start-test {
+	justify-self: start;
+}
+
+.justify-self-end-test {
+	justify-self: end;
+}
+
+.justify-self-end-safe-test {
+	justify-self: safe end;
+}
+
+.justify-self-center-test {
+	justify-self: center;
+}
+
+.justify-self-center-safe-test {
+	justify-self: safe center;
+}
+
+.justify-self-stretch-test {
+	justify-self: stretch;
+}

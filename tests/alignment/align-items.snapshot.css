@@ -1,0 +1,47 @@
+.align-items-test {
+	align-items: center;
+}
+
+.align-items-initial-test {
+	align-items: initial;
+}
+
+.align-items-inherit-test {
+	align-items: inherit;
+}
+
+.align-items-unset-test {
+	align-items: unset;
+}
+
+.align-items-start-test {
+	align-items: start;
+}
+
+.align-items-end-test {
+	align-items: end;
+}
+
+.align-items-end-safe-test {
+	align-items: safe end;
+}
+
+.align-items-center-test {
+	align-items: center;
+}
+
+.align-items-center-safe-test {
+	align-items: safe center;
+}
+
+.align-items-baseline-test {
+	align-items: baseline;
+}
+
+.align-items-baseline-last-test {
+	align-items: last baseline;
+}
+
+.align-items-stretch-test {
+	align-items: stretch;
+}
