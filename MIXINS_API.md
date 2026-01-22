@@ -205,6 +205,21 @@
 
 ---
 
+## Sizing Mixins
+
+| Mixin | Parameter Type | Values |
+|-------|---------------|---------|
+| `.w(@value)` | **enum** \| **length** | `auto`, `<length>`, `<percentage>`, `<viewport-units>` (например: `100%`, `50vw`, `100dvh`, `min-content`, `max-content`, `fit-content`) |
+| `.min-w(@value)` | **enum** \| **length** | `auto`, `<length>`, `<percentage>`, `<viewport-units>` |
+| `.max-w(@value)` | **enum** \| **length** | `none`, `auto`, `<length>`, `<percentage>`, `<viewport-units>` |
+| `.h(@value)` | **enum** \| **length** | `auto`, `<length>`, `<percentage>`, `<viewport-units>` (например: `100%`, `50vh`, `100dvh`, `min-content`, `max-content`, `fit-content`) |
+| `.min-h(@value)` | **enum** \| **length** | `auto`, `<length>`, `<percentage>`, `<viewport-units>` |
+| `.max-h(@value)` | **enum** \| **length** | `none`, `auto`, `<length>`, `<percentage>`, `<viewport-units>` |
+| `.size(@value)` | **enum** \| **length** | `auto`, `<length>`, `<percentage>`, `<viewport-units>` (одно значение для width и height) |
+| `.size(@width; @height)` | **enum** \| **length** | Два значения: width и height (перегрузка миксина) |
+
+---
+
 ## Alignment Mixins
 
 ### align-content
