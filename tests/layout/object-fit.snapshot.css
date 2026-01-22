@@ -1,13 +1,7 @@
-/**
- * Тест базового миксина
- */
 .test-object-fit-custom {
 	object-fit: cover;
 }
 
-/**
- * Тест глобальных пресетов
- */
 .test-object-fit-initial {
 	object-fit: initial;
 }
@@ -20,9 +14,6 @@
 	object-fit: unset;
 }
 
-/**
- * Тест Tailwind-like пресетов
- */
 .test-object-contain {
 	object-fit: contain;
 }
