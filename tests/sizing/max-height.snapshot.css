@@ -1,0 +1,67 @@
+.max-h-test {
+	max-height: 500px;
+}
+
+.max-h-initial-test {
+	max-height: initial;
+}
+
+.max-h-inherit-test {
+	max-height: inherit;
+}
+
+.max-h-unset-test {
+	max-height: unset;
+}
+
+.max-h-auto-test {
+	max-height: auto;
+}
+
+.max-h-full-test {
+	max-height: 100%;
+}
+
+.max-h-screen-test {
+	max-height: 100vh;
+}
+
+.max-h-dvw-test {
+	max-height: 100dvw;
+}
+
+.max-h-dvh-test {
+	max-height: 100dvh;
+}
+
+.max-h-lvw-test {
+	max-height: 100lvw;
+}
+
+.max-h-lvh-test {
+	max-height: 100lvh;
+}
+
+.max-h-svw-test {
+	max-height: 100svw;
+}
+
+.max-h-svh-test {
+	max-height: 100svh;
+}
+
+.max-h-min-test {
+	max-height: min-content;
+}
+
+.max-h-max-test {
+	max-height: max-content;
+}
+
+.max-h-fit-test {
+	max-height: fit-content;
+}
+
+.max-h-none-test {
+	max-height: none;
+}
