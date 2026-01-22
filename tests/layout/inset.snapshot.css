@@ -1,6 +1,3 @@
-/**
- * Тест базового миксина inset
- */
 .test-inset-custom {
 	inset: 10px;
 }
@@ -17,9 +14,6 @@
 	inset: 100%;
 }
 
-/**
- * Тест базового миксина top
- */
 .test-top-custom {
 	top: 10px;
 }
@@ -32,9 +26,6 @@
 	top: 100%;
 }
 
-/**
- * Тест базового миксина right
- */
 .test-right-custom {
 	right: 10px;
 }
@@ -47,9 +38,6 @@
 	right: 100%;
 }
 
-/**
- * Тест базового миксина bottom
- */
 .test-bottom-custom {
 	bottom: 10px;
 }
@@ -62,9 +50,6 @@
 	bottom: 100%;
 }
 
-/**
- * Тест базового миксина left
- */
 .test-left-custom {
 	left: 10px;
 }
@@ -77,9 +62,6 @@
 	left: 100%;
 }
 
-/**
- * Тест базового миксина inset-inline
- */
 .test-inset-inline-custom {
 	inset-inline: 10px;
 }
@@ -92,9 +74,6 @@
 	inset-inline: 100%;
 }
 
-/**
- * Тест базового миксина inset-inline-start
- */
 .test-inset-inline-start-custom {
 	inset-inline-start: 10px;
 }
@@ -107,9 +86,6 @@
 	inset-inline-start: 100%;
 }
 
-/**
- * Тест базового миксина inset-inline-end
- */
 .test-inset-inline-end-custom {
 	inset-inline-end: 10px;
 }
@@ -122,9 +98,6 @@
 	inset-inline-end: 100%;
 }
 
-/**
- * Тест базового миксина inset-block
- */
 .test-inset-block-custom {
 	inset-block: 10px;
 }
@@ -137,9 +110,6 @@
 	inset-block: 100%;
 }
 
-/**
- * Тест базового миксина inset-block-start
- */
 .test-inset-block-start-custom {
 	inset-block-start: 10px;
 }
@@ -152,9 +122,6 @@
 	inset-block-start: 100%;
 }
 
-/**
- * Тест базового миксина inset-block-end
- */
 .test-inset-block-end-custom {
 	inset-block-end: 10px;
 }
