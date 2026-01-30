@@ -1,0 +1,151 @@
+.p-test {
+	padding: 20px;
+}
+
+.p-initial-test {
+	padding: initial;
+}
+
+.p-inherit-test {
+	padding: inherit;
+}
+
+.p-unset-test {
+	padding: unset;
+}
+
+.pt-test {
+	padding-top: 10px;
+}
+
+.pt-initial-test {
+	padding-top: initial;
+}
+
+.pt-inherit-test {
+	padding-top: inherit;
+}
+
+.pt-unset-test {
+	padding-top: unset;
+}
+
+.pr-test {
+	padding-right: 15px;
+}
+
+.pr-initial-test {
+	padding-right: initial;
+}
+
+.pr-inherit-test {
+	padding-right: inherit;
+}
+
+.pr-unset-test {
+	padding-right: unset;
+}
+
+.pb-test {
+	padding-bottom: 10px;
+}
+
+.pb-initial-test {
+	padding-bottom: initial;
+}
+
+.pb-inherit-test {
+	padding-bottom: inherit;
+}
+
+.pb-unset-test {
+	padding-bottom: unset;
+}
+
+.pl-test {
+	padding-left: 15px;
+}
+
+.pl-initial-test {
+	padding-left: initial;
+}
+
+.pl-inherit-test {
+	padding-left: inherit;
+}
+
+.pl-unset-test {
+	padding-left: unset;
+}
+
+.px-test {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.px-initial-test {
+	padding-right: initial;
+	padding-left: initial;
+}
+
+.px-inherit-test {
+	padding-right: inherit;
+	padding-left: inherit;
+}
+
+.px-unset-test {
+	padding-right: unset;
+	padding-left: unset;
+}
+
+.py-test {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.py-initial-test {
+	padding-top: initial;
+	padding-bottom: initial;
+}
+
+.py-inherit-test {
+	padding-top: inherit;
+	padding-bottom: inherit;
+}
+
+.py-unset-test {
+	padding-top: unset;
+	padding-bottom: unset;
+}
+
+.ps-test {
+	padding-inline-start: 12px;
+}
+
+.ps-initial-test {
+	padding-inline-start: initial;
+}
+
+.ps-inherit-test {
+	padding-inline-start: inherit;
+}
+
+.ps-unset-test {
+	padding-inline-start: unset;
+}
+
+.pe-test {
+	padding-inline-end: 18px;
+}
+
+.pe-initial-test {
+	padding-inline-end: initial;
+}
+
+.pe-inherit-test {
+	padding-inline-end: inherit;
+}
+
+.pe-unset-test {
+	padding-inline-end: unset;
+}
