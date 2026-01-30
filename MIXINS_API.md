@@ -302,6 +302,7 @@
 |-------|---------------|---------|
 | `.font-family(...)` | **string** \| **enum** | Переменное количество аргументов: имена шрифтов и generic-family (`Arial`, `'Roboto'`, `sans-serif`, `serif`, `monospace`, `cursive`, `fantasy`) |
 | `.font-size(@value)` | **length** \| **enum** | Абсолютные единицы (`16px`, `14px`), относительные (`1rem`, `1.5em`, `120%`), viewport-единицы (`5vw`, `3vh`), ключевые слова (`small`, `medium`, `large`, `x-large`, `xx-large`, `smaller`, `larger`) |
+| `.font-style(@value)` | **enum** | `normal`, `italic`, `oblique`, `oblique <angle>` (например `oblique 14deg`) |
 
 ---
 
