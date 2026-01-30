@@ -1,0 +1,17 @@
+.font-family(...) {
+	each(@arguments, {
+		font-family+: @value;
+	});
+}
+
+.font-family-initial() {
+	.font-family(initial);
+}
+
+.font-family-inherit() {
+	.font-family(inherit);
+}
+
+.font-family-unset() {
+	.font-family(unset);
+}

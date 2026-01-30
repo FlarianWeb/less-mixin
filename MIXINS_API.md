@@ -296,6 +296,14 @@
 
 ---
 
+## Typography Mixins
+
+| Mixin | Parameter Type | Values |
+|-------|---------------|---------|
+| `.font-family(...)` | **string** \| **enum** | Переменное количество аргументов: имена шрифтов и generic-family (`Arial`, `'Roboto'`, `sans-serif`, `serif`, `monospace`, `cursive`, `fantasy`) |
+
+---
+
 ## Global Values
 
 Все миксины также поддерживают глобальные CSS значения (доступны через отдельные пресеты):
