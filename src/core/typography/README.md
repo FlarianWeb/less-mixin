@@ -7,6 +7,7 @@
 - [font-family](#font-family)
 - [font-size](#font-size)
 - [font-style](#font-style)
+- [font-weight](#font-weight)
 
 ---
 
@@ -53,5 +54,32 @@
 - `.font-style-initial()` - начальное значение
 - `.font-style-inherit()` - наследование от родителя
 - `.font-style-unset()` - комбинация inherit/initial
+
+---
+
+## font-weight
+
+**Назначение:** Устанавливает толщину (насыщенность) шрифта. Может быть задано числовым значением от 100 до 900 (с шагом 100), где 400 соответствует normal, а 700 — bold. Также поддерживает ключевые слова normal, bold и относительные значения lighter, bolder, которые делают шрифт светлее или жирнее относительно родительского элемента.
+
+**Базовый миксин:**
+- `.font-weight(@value)` - принимает значение толщины шрифта
+
+**Дополнительные пресеты:**
+- `.font-weight-hairline()` - 100 (тончайший)
+- `.font-weight-thin()` - 200 (тонкий)
+- `.font-weight-light()` - 300 (светлый)
+- `.font-weight-regular()` - 400 (обычный)
+- `.font-weight-medium()` - 500 (средний)
+- `.font-weight-semibold()` - 600 (полужирный)
+- `.font-weight-bold()` - 700 (жирный)
+- `.font-weight-heavy()` - 800 (тяжелый)
+- `.font-weight-black()` - 900 (самый жирный)
+- `.font-weight-lighter()` - тоньше чем у родителя
+- `.font-weight-bolder()` - жирнее чем у родителя
+
+**Глобальные пресеты:**
+- `.font-weight-initial()` - начальное значение
+- `.font-weight-inherit()` - наследование от родителя
+- `.font-weight-unset()` - комбинация inherit/initial
 
 ---

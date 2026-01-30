@@ -1,0 +1,59 @@
+.font-weight-test {
+	font-weight: 500;
+}
+
+.font-weight-hairline-test {
+	font-weight: 100;
+}
+
+.font-weight-thin-test {
+	font-weight: 200;
+}
+
+.font-weight-light-test {
+	font-weight: 300;
+}
+
+.font-weight-regular-test {
+	font-weight: 400;
+}
+
+.font-weight-medium-test {
+	font-weight: 500;
+}
+
+.font-weight-semibold-test {
+	font-weight: 600;
+}
+
+.font-weight-bold-test {
+	font-weight: 700;
+}
+
+.font-weight-heavy-test {
+	font-weight: 800;
+}
+
+.font-weight-black-test {
+	font-weight: 900;
+}
+
+.font-weight-lighter-test {
+	font-weight: lighter;
+}
+
+.font-weight-bolder-test {
+	font-weight: bolder;
+}
+
+.font-weight-initial-test {
+	font-weight: initial;
+}
+
+.font-weight-inherit-test {
+	font-weight: inherit;
+}
+
+.font-weight-unset-test {
+	font-weight: unset;
+}
