@@ -202,6 +202,24 @@
 | `.gap(@value)` | **length** | `<length>`, `<percentage>` (например: `16px`, `1rem`, `2%`) |
 | `.gap-x(@value)` | **length** | `<length>`, `<percentage>` (column-gap, горизонталь) |
 | `.gap-y(@value)` | **length** | `<length>`, `<percentage>` (row-gap, вертикаль) |
+| `.m(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin со всех сторон) |
+| `.mt(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-top) |
+| `.mr(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-right) |
+| `.mb(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-bottom) |
+| `.ml(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-left) |
+| `.mx(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin horizontal) |
+| `.my(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin vertical) |
+| `.ms(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-inline-start) |
+| `.me(@value)` | **length** | `<length>`, `<percentage>`, `auto` (margin-inline-end) |
+| `.p(@value)` | **length** | `<length>`, `<percentage>` (padding со всех сторон) |
+| `.pt(@value)` | **length** | `<length>`, `<percentage>` (padding-top) |
+| `.pr(@value)` | **length** | `<length>`, `<percentage>` (padding-right) |
+| `.pb(@value)` | **length** | `<length>`, `<percentage>` (padding-bottom) |
+| `.pl(@value)` | **length** | `<length>`, `<percentage>` (padding-left) |
+| `.px(@value)` | **length** | `<length>`, `<percentage>` (padding horizontal) |
+| `.py(@value)` | **length** | `<length>`, `<percentage>` (padding vertical) |
+| `.ps(@value)` | **length** | `<length>`, `<percentage>` (padding-inline-start) |
+| `.pe(@value)` | **length** | `<length>`, `<percentage>` (padding-inline-end) |
 
 ---
 
