@@ -8,6 +8,7 @@
 - [font-size](#font-size)
 - [font-stretch](#font-stretch)
 - [font-style](#font-style)
+- [font-variant-numeric](#font-variant-numeric)
 - [font-weight](#font-weight)
 
 ---
@@ -80,6 +81,31 @@
 - `.font-style-initial()` - начальное значение
 - `.font-style-inherit()` - наследование от родителя
 - `.font-style-unset()` - комбинация inherit/initial
+
+---
+
+## font-variant-numeric
+
+**Назначение:** Управляет отображением цифр, дробей и порядковых номеров. Позволяет использовать альтернативные глифы для чисел, если они доступны в шрифте. Полезно для типографического оформления чисел в таблицах, финансовых документах и текстах с математическими выражениями. Значения можно комбинировать (например, `tabular-nums slashed-zero`).
+
+**Базовый миксин:**
+- `.font-variant-numeric(@value)` - принимает значение вариантов отображения цифр
+
+**Дополнительные пресеты:**
+- `.font-variant-numeric-normal()` - стандартное отображение
+- `.font-variant-numeric-ordinal()` - для порядковых номеров (1st, 2nd, 3rd)
+- `.font-variant-numeric-slashed-zero()` - ноль с косой чертой
+- `.font-variant-numeric-lining-nums()` - цифры одинаковой высоты (как заглавные буквы)
+- `.font-variant-numeric-oldstyle-nums()` - цифры разной высоты (как строчные буквы)
+- `.font-variant-numeric-proportional-nums()` - цифры пропорциональной ширины
+- `.font-variant-numeric-tabular-nums()` - цифры одинаковой ширины (для таблиц)
+- `.font-variant-numeric-diagonal-fractions()` - диагональные дроби (1/2)
+- `.font-variant-numeric-stacked-fractions()` - вертикальные дроби
+
+**Глобальные пресеты:**
+- `.font-variant-numeric-initial()` - начальное значение
+- `.font-variant-numeric-inherit()` - наследование от родителя
+- `.font-variant-numeric-unset()` - комбинация inherit/initial
 
 ---
 
