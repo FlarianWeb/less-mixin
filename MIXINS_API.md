@@ -302,6 +302,7 @@
 |-------|---------------|---------|
 | `.font-family(...)` | **string** \| **enum** | Переменное количество аргументов: имена шрифтов и generic-family (`Arial`, `'Roboto'`, `sans-serif`, `serif`, `monospace`, `cursive`, `fantasy`) |
 | `.font-size(@value)` | **length** \| **enum** | Абсолютные единицы (`16px`, `14px`), относительные (`1rem`, `1.5em`, `120%`), viewport-единицы (`5vw`, `3vh`), ключевые слова (`small`, `medium`, `large`, `x-large`, `xx-large`, `smaller`, `larger`) |
+| `.font-stretch(@value)` | **enum** | `ultra-condensed`, `extra-condensed`, `condensed`, `semi-condensed`, `normal`, `semi-expanded`, `expanded`, `extra-expanded`, `ultra-expanded`, процентные значения (`50%`, `75%`, `100%`, `125%`, `200%`) |
 | `.font-style(@value)` | **enum** | `normal`, `italic`, `oblique`, `oblique <angle>` (например `oblique 14deg`) |
 | `.font-weight(@value)` | **number** \| **enum** | Числовые значения `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, `900`, ключевые слова `lighter`, `bolder` |
 

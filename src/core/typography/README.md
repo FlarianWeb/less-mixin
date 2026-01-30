@@ -6,6 +6,7 @@
 
 - [font-family](#font-family)
 - [font-size](#font-size)
+- [font-stretch](#font-stretch)
 - [font-style](#font-style)
 - [font-weight](#font-weight)
 
@@ -36,6 +37,31 @@
 - `.font-size-initial()` - начальное значение
 - `.font-size-inherit()` - наследование от родителя
 - `.font-size-unset()` - комбинация inherit/initial
+
+---
+
+## font-stretch
+
+**Назначение:** Управляет шириной (растяжением/сжатием) шрифта. Позволяет использовать узкие или широкие начертания шрифта, если они доступны в font-family. Может быть задано процентным значением (50% - 200%) или ключевыми словами. Значение 100% (normal) соответствует стандартной ширине шрифта.
+
+**Базовый миксин:**
+- `.font-stretch(@value)` - принимает значение растяжения шрифта
+
+**Дополнительные пресеты:**
+- `.font-stretch-ultra-condensed()` - 50% (максимально узкий)
+- `.font-stretch-extra-condensed()` - 62.5% (экстра узкий)
+- `.font-stretch-condensed()` - 75% (узкий)
+- `.font-stretch-semi-condensed()` - 87.5% (полуузкий)
+- `.font-stretch-normal()` - 100% (обычная ширина)
+- `.font-stretch-semi-expanded()` - 112.5% (полурасширенный)
+- `.font-stretch-expanded()` - 125% (расширенный)
+- `.font-stretch-extra-expanded()` - 150% (экстра расширенный)
+- `.font-stretch-ultra-expanded()` - 200% (максимально широкий)
+
+**Глобальные пресеты:**
+- `.font-stretch-initial()` - начальное значение
+- `.font-stretch-inherit()` - наследование от родителя
+- `.font-stretch-unset()` - комбинация inherit/initial
 
 ---
 
