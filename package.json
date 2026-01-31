@@ -33,7 +33,9 @@
   },
   "scripts": {
     "test": "node tests/run-tests.js",
-    "test:snapshot": "node tests/run-tests.js -g"
+    "test:snapshot": "node tests/run-tests.js -g",
+    "lint": "stylelint \"src/**/*.less\" \"tests/**/*.less\"",
+    "lint:fix": "stylelint \"src/**/*.less\" \"tests/**/*.less\" --fix"
   },
   "devDependencies": {
     "@flarian/frontend-preset": "^1.4.4",

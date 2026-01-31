@@ -1,0 +1,48 @@
+.line-clamp-test {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+
+.line-clamp-single-test {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+.line-clamp-multiple-test {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+}
+
+.line-clamp-none-test {
+	overflow: visible;
+	display: block;
+	-webkit-box-orient: horizontal;
+	-webkit-line-clamp: unset;
+}
+
+.line-clamp-initial-test {
+	overflow: initial;
+	display: initial;
+	-webkit-box-orient: initial;
+	-webkit-line-clamp: initial;
+}
+
+.line-clamp-inherit-test {
+	overflow: inherit;
+	display: inherit;
+	-webkit-box-orient: inherit;
+	-webkit-line-clamp: inherit;
+}
+
+.line-clamp-unset-test {
+	overflow: unset;
+	display: unset;
+	-webkit-box-orient: unset;
+	-webkit-line-clamp: unset;
+}

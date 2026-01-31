@@ -5,6 +5,11 @@ export default {
 
 	rules: {
 		'at-rule-no-unknown': [true, { ignoreAtRules: ['theme'] }],
-		'order/order': null, // Отключаем для LESS - рекурсия требует определенного порядка
+		'property-no-deprecated': [
+			true,
+			{
+				ignoreProperties: ['-webkit-box-orient'], // Required for -webkit-line-clamp
+			},
+		]
 	},
 };
