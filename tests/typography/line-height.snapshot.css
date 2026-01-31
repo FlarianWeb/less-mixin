@@ -1,0 +1,35 @@
+.line-height-test {
+	line-height: 1.5;
+}
+
+.line-height-unitless-test {
+	line-height: 2;
+}
+
+.line-height-px-test {
+	line-height: 24px;
+}
+
+.line-height-rem-test {
+	line-height: 1.75rem;
+}
+
+.line-height-percent-test {
+	line-height: 150%;
+}
+
+.line-height-normal-test {
+	line-height: normal;
+}
+
+.line-height-initial-test {
+	line-height: initial;
+}
+
+.line-height-inherit-test {
+	line-height: inherit;
+}
+
+.line-height-unset-test {
+	line-height: unset;
+}
