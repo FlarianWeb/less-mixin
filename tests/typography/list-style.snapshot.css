@@ -1,0 +1,87 @@
+.list-style-test {
+	list-style: disc inside;
+}
+
+.list-style-type-test {
+	list-style-type: square;
+}
+
+.list-style-position-test {
+	list-style-position: inside;
+}
+
+.list-style-image-test {
+	list-style-image: url('marker.png');
+}
+
+.list-inside-test {
+	list-style-position: inside;
+}
+
+.list-outside-test {
+	list-style-position: outside;
+}
+
+.list-none-test {
+	list-style-type: none;
+}
+
+.list-disc-test {
+	list-style-type: disc;
+}
+
+.list-circle-test {
+	list-style-type: circle;
+}
+
+.list-square-test {
+	list-style-type: square;
+}
+
+.list-decimal-test {
+	list-style-type: decimal;
+}
+
+.list-decimal-leading-zero-test {
+	list-style-type: decimal-leading-zero;
+}
+
+.list-lower-alpha-test {
+	list-style-type: lower-alpha;
+}
+
+.list-upper-alpha-test {
+	list-style-type: upper-alpha;
+}
+
+.list-lower-roman-test {
+	list-style-type: lower-roman;
+}
+
+.list-upper-roman-test {
+	list-style-type: upper-roman;
+}
+
+.list-style-initial-test {
+	list-style: initial;
+}
+
+.list-style-inherit-test {
+	list-style: inherit;
+}
+
+.list-style-unset-test {
+	list-style: unset;
+}
+
+.list-style-type-initial-test {
+	list-style-type: initial;
+}
+
+.list-style-position-inherit-test {
+	list-style-position: inherit;
+}
+
+.list-style-image-unset-test {
+	list-style-image: unset;
+}

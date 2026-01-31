@@ -309,6 +309,10 @@
 | `.letter-spacing(@value)` | **length** | Любые единицы длины (`1px`, `0.05em`, `-0.02em`), где положительные значения увеличивают расстояние, отрицательные — уменьшают |
 | `.line-clamp(@value)` | **number** | Количество строк для отображения (`1`, `2`, `3`, и т.д.) |
 | `.line-height(@value)` | **number** \| **length** \| **enum** | Числовые множители (`1.5`, `2`), абсолютные единицы (`24px`, `1.75rem`), проценты (`150%`), ключевое слово `normal` |
+| `.list-style(@value)` | **string** | Shorthand для list-style свойств (например `disc inside`, `square outside`) |
+| `.list-style-type(@value)` | **enum** | `none`, `disc`, `circle`, `square`, `decimal`, `decimal-leading-zero`, `lower-alpha`, `upper-alpha`, `lower-roman`, `upper-roman` и другие |
+| `.list-style-position(@value)` | **enum** | `inside`, `outside` |
+| `.list-style-image(@value)` | **string** | `none`, `url(...)` |
 
 ---
 

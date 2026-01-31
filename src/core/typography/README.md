@@ -13,6 +13,7 @@
 - [letter-spacing](#letter-spacing)
 - [line-clamp](#line-clamp)
 - [line-height](#line-height)
+- [list-style](#list-style)
 
 ---
 
@@ -192,5 +193,38 @@
 - `.line-height-initial()` - начальное значение
 - `.line-height-inherit()` - наследование от родителя
 - `.line-height-unset()` - комбинация inherit/initial
+
+---
+
+## list-style
+
+**Назначение:** Управляет оформлением маркеров списков (ul, ol). Объединяет три свойства: тип маркера (list-style-type), позицию маркера относительно текста (list-style-position) и возможность использования изображения вместо маркера (list-style-image). Позволяет настраивать визуальное представление списков для улучшения читаемости и соответствия дизайну.
+
+**Базовые миксины:**
+- `.list-style(@value)` - shorthand для всех list-style свойств (например `disc inside`)
+- `.list-style-type(@value)` - устанавливает тип маркера
+- `.list-style-position(@value)` - устанавливает позицию маркера
+- `.list-style-image(@value)` - устанавливает изображение маркера
+
+**Пресеты для position:**
+- `.list-inside()` - маркер внутри блока текста
+- `.list-outside()` - маркер снаружи (по умолчанию)
+
+**Пресеты для type:**
+- `.list-none()` - без маркера
+- `.list-disc()` - заполненный круг (по умолчанию для ul)
+- `.list-circle()` - пустой круг
+- `.list-square()` - квадрат
+- `.list-decimal()` - числа (по умолчанию для ol)
+- `.list-decimal-leading-zero()` - числа с нулем впереди (01, 02, 03)
+- `.list-lower-alpha()` - строчные буквы (a, b, c)
+- `.list-upper-alpha()` - заглавные буквы (A, B, C)
+- `.list-lower-roman()` - строчные римские (i, ii, iii)
+- `.list-upper-roman()` - заглавные римские (I, II, III)
+
+**Глобальные пресеты:**
+- `.list-style-initial()` / `.list-style-type-initial()` / `.list-style-position-initial()` / `.list-style-image-initial()` - начальные значения
+- `.list-style-inherit()` / `.list-style-type-inherit()` / `.list-style-position-inherit()` / `.list-style-image-inherit()` - наследование от родителя
+- `.list-style-unset()` / `.list-style-type-unset()` / `.list-style-position-unset()` / `.list-style-image-unset()` - комбинация inherit/initial
 
 ---
