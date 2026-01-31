@@ -1,0 +1,39 @@
+.text-align-test {
+	text-align: center;
+}
+
+.text-align-left-test {
+	text-align: left;
+}
+
+.text-align-center-test {
+	text-align: center;
+}
+
+.text-align-right-test {
+	text-align: right;
+}
+
+.text-align-justify-test {
+	text-align: justify;
+}
+
+.text-align-start-test {
+	text-align: start;
+}
+
+.text-align-end-test {
+	text-align: end;
+}
+
+.text-align-initial-test {
+	text-align: initial;
+}
+
+.text-align-inherit-test {
+	text-align: inherit;
+}
+
+.text-align-unset-test {
+	text-align: unset;
+}

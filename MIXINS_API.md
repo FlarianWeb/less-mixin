@@ -313,6 +313,7 @@
 | `.list-style-type(@value)` | **enum** | `none`, `disc`, `circle`, `square`, `decimal`, `decimal-leading-zero`, `lower-alpha`, `upper-alpha`, `lower-roman`, `upper-roman` и другие |
 | `.list-style-position(@value)` | **enum** | `inside`, `outside` |
 | `.list-style-image(@value)` | **string** | `none`, `url(...)` |
+| `.text-align(@value)` | **enum** | `left`, `center`, `right`, `justify`, `start`, `end` |
 
 ---
 

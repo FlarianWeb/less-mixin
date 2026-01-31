@@ -14,51 +14,51 @@
 	list-style-image: url('marker.png');
 }
 
-.list-inside-test {
+.list-style-inside-test {
 	list-style-position: inside;
 }
 
-.list-outside-test {
+.list-style-outside-test {
 	list-style-position: outside;
 }
 
-.list-none-test {
+.list-style-none-test {
 	list-style-type: none;
 }
 
-.list-disc-test {
+.list-style-disc-test {
 	list-style-type: disc;
 }
 
-.list-circle-test {
+.list-style-circle-test {
 	list-style-type: circle;
 }
 
-.list-square-test {
+.list-style-square-test {
 	list-style-type: square;
 }
 
-.list-decimal-test {
+.list-style-decimal-test {
 	list-style-type: decimal;
 }
 
-.list-decimal-leading-zero-test {
+.list-style-decimal-leading-zero-test {
 	list-style-type: decimal-leading-zero;
 }
 
-.list-lower-alpha-test {
+.list-style-lower-alpha-test {
 	list-style-type: lower-alpha;
 }
 
-.list-upper-alpha-test {
+.list-style-upper-alpha-test {
 	list-style-type: upper-alpha;
 }
 
-.list-lower-roman-test {
+.list-style-lower-roman-test {
 	list-style-type: lower-roman;
 }
 
-.list-upper-roman-test {
+.list-style-upper-roman-test {
 	list-style-type: upper-roman;
 }
 

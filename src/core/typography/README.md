@@ -14,6 +14,7 @@
 - [line-clamp](#line-clamp)
 - [line-height](#line-height)
 - [list-style](#list-style)
+- [text-align](#text-align)
 
 ---
 
@@ -207,24 +208,46 @@
 - `.list-style-image(@value)` - устанавливает изображение маркера
 
 **Пресеты для position:**
-- `.list-inside()` - маркер внутри блока текста
-- `.list-outside()` - маркер снаружи (по умолчанию)
+- `.list-style-inside()` - маркер внутри блока текста
+- `.list-style-outside()` - маркер снаружи (по умолчанию)
 
 **Пресеты для type:**
-- `.list-none()` - без маркера
-- `.list-disc()` - заполненный круг (по умолчанию для ul)
-- `.list-circle()` - пустой круг
-- `.list-square()` - квадрат
-- `.list-decimal()` - числа (по умолчанию для ol)
-- `.list-decimal-leading-zero()` - числа с нулем впереди (01, 02, 03)
-- `.list-lower-alpha()` - строчные буквы (a, b, c)
-- `.list-upper-alpha()` - заглавные буквы (A, B, C)
-- `.list-lower-roman()` - строчные римские (i, ii, iii)
-- `.list-upper-roman()` - заглавные римские (I, II, III)
+- `.list-style-none()` - без маркера
+- `.list-style-disc()` - заполненный круг (по умолчанию для ul)
+- `.list-style-circle()` - пустой круг
+- `.list-style-square()` - квадрат
+- `.list-style-decimal()` - числа (по умолчанию для ol)
+- `.list-style-decimal-leading-zero()` - числа с нулем впереди (01, 02, 03)
+- `.list-style-lower-alpha()` - строчные буквы (a, b, c)
+- `.list-style-upper-alpha()` - заглавные буквы (A, B, C)
+- `.list-style-lower-roman()` - строчные римские (i, ii, iii)
+- `.list-style-upper-roman()` - заглавные римские (I, II, III)
 
 **Глобальные пресеты:**
 - `.list-style-initial()` / `.list-style-type-initial()` / `.list-style-position-initial()` / `.list-style-image-initial()` - начальные значения
 - `.list-style-inherit()` / `.list-style-type-inherit()` / `.list-style-position-inherit()` / `.list-style-image-inherit()` - наследование от родителя
 - `.list-style-unset()` / `.list-style-type-unset()` / `.list-style-position-unset()` / `.list-style-image-unset()` - комбинация inherit/initial
+
+---
+
+## text-align
+
+**Назначение:** Устанавливает горизонтальное выравнивание текста внутри блочного элемента. Определяет, как строки текста распределяются относительно краев контейнера. Поддерживает выравнивание по левому/правому краю, по центру, по ширине (justify), а также логические значения start/end, которые учитывают направление текста (ltr/rtl).
+
+**Базовый миксин:**
+- `.text-align(@value)` - принимает значение выравнивания текста
+
+**Дополнительные пресеты:**
+- `.text-align-left()` - выравнивание по левому краю
+- `.text-align-center()` - выравнивание по центру
+- `.text-align-right()` - выравнивание по правому краю
+- `.text-align-justify()` - выравнивание по ширине (по обоим краям)
+- `.text-align-start()` - по началу направления текста (left для ltr, right для rtl)
+- `.text-align-end()` - по концу направления текста (right для ltr, left для rtl)
+
+**Глобальные пресеты:**
+- `.text-align-initial()` - начальное значение
+- `.text-align-inherit()` - наследование от родителя
+- `.text-align-unset()` - комбинация inherit/initial
 
 ---
