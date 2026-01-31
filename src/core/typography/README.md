@@ -10,6 +10,7 @@
 - [font-style](#font-style)
 - [font-variant-numeric](#font-variant-numeric)
 - [font-weight](#font-weight)
+- [letter-spacing](#letter-spacing)
 
 ---
 
@@ -133,5 +134,30 @@
 - `.font-weight-initial()` - начальное значение
 - `.font-weight-inherit()` - наследование от родителя
 - `.font-weight-unset()` - комбинация inherit/initial
+
+---
+
+## letter-spacing
+
+**Назначение:** Свойство CSS letter-spacing используется для настройки расстояния между символами (буквами, цифрами, знаками) в тексте, то есть для управления трекингом. Оно позволяет увеличивать или уменьшать стандартный интервал, улучшая читаемость, создавая акценты в заголовках или меняя стиль оформления элементов.
+
+**Базовый миксин:**
+- `.letter-spacing(@value)` - принимает значение межбуквенного интервала
+
+**Дополнительные пресеты:**
+- `.letter-spacing-hairline()` -0.06em (тончайший)
+- `.letter-spacing-thin()` -0.04em (тонкий)
+- `.letter-spacing-light()` -0.02em (светлый)
+- `.letter-spacing-regular()` 0 (обычный)
+- `.letter-spacing-medium()` 0.02em (средний)
+- `.letter-spacing-semibold()` 0.04em (полужирный)
+- `.letter-spacing-bold()` 0.06em (жирный)
+- `.letter-spacing-heavy()` 0.08em (тяжелый)
+- `.letter-spacing-black()` 0.1em (самый жирный)
+
+**Глобальные пресеты:**
+- `.letter-spacing-initial()` - начальное значение
+- `.letter-spacing-inherit()` - наследование от родителя
+- `.letter-spacing-unset()` - комбинация inherit/initial
 
 ---

@@ -1,0 +1,51 @@
+.letter-spacing-test {
+	letter-spacing: 1px;
+}
+
+.letter-spacing-hairline-test {
+	letter-spacing: -0.06em;
+}
+
+.letter-spacing-thin-test {
+	letter-spacing: -0.04em;
+}
+
+.letter-spacing-light-test {
+	letter-spacing: -0.02em;
+}
+
+.letter-spacing-regular-test {
+	letter-spacing: 0;
+}
+
+.letter-spacing-medium-test {
+	letter-spacing: 0.02em;
+}
+
+.letter-spacing-semibold-test {
+	letter-spacing: 0.04em;
+}
+
+.letter-spacing-bold-test {
+	letter-spacing: 0.06em;
+}
+
+.letter-spacing-heavy-test {
+	letter-spacing: 0.08em;
+}
+
+.letter-spacing-black-test {
+	letter-spacing: 0.1em;
+}
+
+.letter-spacing-initial-test {
+	letter-spacing: initial;
+}
+
+.letter-spacing-inherit-test {
+	letter-spacing: inherit;
+}
+
+.letter-spacing-unset-test {
+	letter-spacing: unset;
+}

@@ -306,6 +306,7 @@
 | `.font-style(@value)` | **enum** | `normal`, `italic`, `oblique`, `oblique <angle>` (например `oblique 14deg`) |
 | `.font-variant-numeric(@value)` | **enum** | `normal`, `ordinal`, `slashed-zero`, `lining-nums`, `oldstyle-nums`, `proportional-nums`, `tabular-nums`, `diagonal-fractions`, `stacked-fractions` (можно комбинировать) |
 | `.font-weight(@value)` | **number** \| **enum** | Числовые значения `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, `900`, ключевые слова `lighter`, `bolder` |
+| `.letter-spacing(@value)` | **length** | Любые единицы длины (`1px`, `0.05em`, `-0.02em`), где положительные значения увеличивают расстояние, отрицательные — уменьшают |
 
 ---
 
