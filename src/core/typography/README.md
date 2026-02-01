@@ -4,6 +4,7 @@
 
 ## Содержание
 
+- [color](#color)
 - [font-family](#font-family)
 - [font-size](#font-size)
 - [font-stretch](#font-stretch)
@@ -15,6 +16,24 @@
 - [line-height](#line-height)
 - [list-style](#list-style)
 - [text-align](#text-align)
+
+---
+
+## color
+
+**Назначение:** Устанавливает цвет текста элемента. Один из основных типографических атрибутов, определяющий цвет переднего плана (foreground color) для текстового содержимого. Может быть задан в различных форматах: hex (#ff0000), rgb(a), hsl(a), именованные цвета (red, blue), а также специальные значения currentColor (текущий цвет элемента) и transparent (прозрачный).
+
+**Базовый миксин:**
+- `.color(@value)` - принимает любое валидное значение цвета
+
+**Дополнительные пресеты:**
+- `.color-current()` - использует currentColor (наследует цвет от родителя или себя)
+- `.color-transparent()` - прозрачный цвет
+
+**Глобальные пресеты:**
+- `.color-initial()` - начальное значение
+- `.color-inherit()` - наследование от родителя
+- `.color-unset()` - комбинация inherit/initial
 
 ---
 
