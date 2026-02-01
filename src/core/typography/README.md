@@ -17,6 +17,7 @@
 - [list-style](#list-style)
 - [text-align](#text-align)
 - [text-decoration](#text-decoration)
+- [text-transform](#text-transform)
 
 ---
 
@@ -301,5 +302,25 @@
 - `.text-decoration-initial()` / `.text-decoration-line-initial()` / `.text-decoration-color-initial()` / `.text-decoration-style-initial()` / `.text-decoration-thickness-initial()` / `.text-underline-offset-initial()` - начальные значения
 - `.text-decoration-inherit()` / `.text-decoration-line-inherit()` / `.text-decoration-color-inherit()` / `.text-decoration-style-inherit()` / `.text-decoration-thickness-inherit()` / `.text-underline-offset-inherit()` - наследование от родителя
 - `.text-decoration-unset()` / `.text-decoration-line-unset()` / `.text-decoration-color-unset()` / `.text-decoration-style-unset()` / `.text-decoration-thickness-unset()` / `.text-underline-offset-unset()` - комбинация inherit/initial
+
+---
+
+## text-transform
+
+**Назначение:** Управляет регистром текста (заглавные/строчные буквы). Позволяет изменять визуальное представление текста без изменения исходного содержимого. Часто используется для оформления заголовков, кнопок, навигации и других UI элементов, где требуется единообразное отображение текста независимо от того, как он был введен.
+
+**Базовый миксин:**
+- `.text-transform(@value)` - принимает значение трансформации текста
+
+**Дополнительные пресеты:**
+- `.text-transform-none()` - без трансформации (исходный регистр)
+- `.text-transform-uppercase()` - все символы заглавные (UPPERCASE)
+- `.text-transform-lowercase()` - все символы строчные (lowercase)
+- `.text-transform-capitalize()` - первая буква каждого слова заглавная (Capitalize Each Word)
+
+**Глобальные пресеты:**
+- `.text-transform-initial()` - начальное значение
+- `.text-transform-inherit()` - наследование от родителя
+- `.text-transform-unset()` - комбинация inherit/initial
 
 ---

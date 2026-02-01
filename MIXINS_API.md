@@ -321,6 +321,7 @@
 | `.text-decoration-style(@value)` | **enum** | `solid`, `double`, `dotted`, `dashed`, `wavy` |
 | `.text-decoration-thickness(@value)` | **length** \| **enum** | `auto`, `from-font`, абсолютные единицы (`1px`, `2px`), относительные (`0.1em`) |
 | `.text-underline-offset(@value)` | **length** \| **enum** | `auto`, абсолютные единицы (`2px`, `4px`), относительные (`0.2em`) |
+| `.text-transform(@value)` | **enum** | `none`, `uppercase`, `lowercase`, `capitalize` |
 
 ---
 
