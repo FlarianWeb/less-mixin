@@ -315,6 +315,12 @@
 | `.list-style-position(@value)` | **enum** | `inside`, `outside` |
 | `.list-style-image(@value)` | **string** | `none`, `url(...)` |
 | `.text-align(@value)` | **enum** | `left`, `center`, `right`, `justify`, `start`, `end` |
+| `.text-decoration(@value)` | **string** | Shorthand для text-decoration свойств (например `underline solid red`, `line-through wavy blue`) |
+| `.text-decoration-line(@value)` | **enum** | `none`, `underline`, `overline`, `line-through` (можно комбинировать: `underline overline`) |
+| `.text-decoration-color(@value)` | **string** \| **enum** | Любое валидное значение цвета: hex, rgb/rgba, hsl/hsla, именованные цвета, `currentColor` |
+| `.text-decoration-style(@value)` | **enum** | `solid`, `double`, `dotted`, `dashed`, `wavy` |
+| `.text-decoration-thickness(@value)` | **length** \| **enum** | `auto`, `from-font`, абсолютные единицы (`1px`, `2px`), относительные (`0.1em`) |
+| `.text-underline-offset(@value)` | **length** \| **enum** | `auto`, абсолютные единицы (`2px`, `4px`), относительные (`0.2em`) |
 
 ---
 

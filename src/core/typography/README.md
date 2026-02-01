@@ -16,6 +16,7 @@
 - [line-height](#line-height)
 - [list-style](#list-style)
 - [text-align](#text-align)
+- [text-decoration](#text-decoration)
 
 ---
 
@@ -268,5 +269,37 @@
 - `.text-align-initial()` - начальное значение
 - `.text-align-inherit()` - наследование от родителя
 - `.text-align-unset()` - комбинация inherit/initial
+
+---
+
+## text-decoration
+
+**Назначение:** Управляет декоративным оформлением текста - подчеркиванием, зачеркиванием и линией над текстом. Объединяет пять CSS свойств: тип линии (text-decoration-line), цвет линии (text-decoration-color), стиль линии (text-decoration-style), толщину линии (text-decoration-thickness) и смещение подчеркивания (text-underline-offset). Часто используется для оформления ссылок, выделения важного текста или декоративных элементов.
+
+**Базовые миксины:**
+- `.text-decoration(@value)` - shorthand для text-decoration свойств (например `underline solid red`)
+- `.text-decoration-line(@value)` - устанавливает тип линии
+- `.text-decoration-color(@value)` - устанавливает цвет линии
+- `.text-decoration-style(@value)` - устанавливает стиль линии
+- `.text-decoration-thickness(@value)` - устанавливает толщину линии
+- `.text-underline-offset(@value)` - устанавливает смещение подчеркивания от текста
+
+**Пресеты для line:**
+- `.text-decoration-none()` - без декорации
+- `.text-decoration-underline()` - подчеркивание
+- `.text-decoration-overline()` - линия сверху
+- `.text-decoration-line-through()` - зачеркивание
+
+**Пресеты для style:**
+- `.text-decoration-solid()` - сплошная линия
+- `.text-decoration-double()` - двойная линия
+- `.text-decoration-dotted()` - точечная линия
+- `.text-decoration-dashed()` - пунктирная линия
+- `.text-decoration-wavy()` - волнистая линия
+
+**Глобальные пресеты:**
+- `.text-decoration-initial()` / `.text-decoration-line-initial()` / `.text-decoration-color-initial()` / `.text-decoration-style-initial()` / `.text-decoration-thickness-initial()` / `.text-underline-offset-initial()` - начальные значения
+- `.text-decoration-inherit()` / `.text-decoration-line-inherit()` / `.text-decoration-color-inherit()` / `.text-decoration-style-inherit()` / `.text-decoration-thickness-inherit()` / `.text-underline-offset-inherit()` - наследование от родителя
+- `.text-decoration-unset()` / `.text-decoration-line-unset()` / `.text-decoration-color-unset()` / `.text-decoration-style-unset()` / `.text-decoration-thickness-unset()` / `.text-underline-offset-unset()` - комбинация inherit/initial
 
 ---
