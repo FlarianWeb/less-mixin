@@ -17,6 +17,7 @@
 - [list-style](#list-style)
 - [text-align](#text-align)
 - [text-decoration](#text-decoration)
+- [text-overflow](#text-overflow)
 - [text-transform](#text-transform)
 
 ---
@@ -302,6 +303,24 @@
 - `.text-decoration-initial()` / `.text-decoration-line-initial()` / `.text-decoration-color-initial()` / `.text-decoration-style-initial()` / `.text-decoration-thickness-initial()` / `.text-underline-offset-initial()` - начальные значения
 - `.text-decoration-inherit()` / `.text-decoration-line-inherit()` / `.text-decoration-color-inherit()` / `.text-decoration-style-inherit()` / `.text-decoration-thickness-inherit()` / `.text-underline-offset-inherit()` - наследование от родителя
 - `.text-decoration-unset()` / `.text-decoration-line-unset()` / `.text-decoration-color-unset()` / `.text-decoration-style-unset()` / `.text-decoration-thickness-unset()` / `.text-underline-offset-unset()` - комбинация inherit/initial
+
+---
+
+## text-overflow
+
+**Назначение:** Определяет поведение при переполнении текста, когда он не помещается в контейнер. Позволяет обрезать текст или добавить многоточие (...) для индикации скрытого содержимого. Работает только при наличии `overflow: hidden` (или `overflow: clip`) и `white-space: nowrap`. Часто используется для однострочных заголовков, названий файлов, путей и других элементов с ограниченной шириной.
+
+**Базовый миксин:**
+- `.text-overflow(@value)` - принимает значение поведения при переполнении
+
+**Дополнительные пресеты:**
+- `.text-overflow-clip()` - обрезает текст по границе контейнера (по умолчанию)
+- `.text-overflow-ellipsis()` - добавляет многоточие (...) в конце видимого текста
+
+**Глобальные пресеты:**
+- `.text-overflow-initial()` - начальное значение
+- `.text-overflow-inherit()` - наследование от родителя
+- `.text-overflow-unset()` - комбинация inherit/initial
 
 ---
 
